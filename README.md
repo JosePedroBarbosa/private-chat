@@ -46,6 +46,7 @@ Create a `.env.local` file in the root directory:
 ```env
 UPSTASH_REDIS_REST_URL=your_redis_url
 UPSTASH_REDIS_REST_TOKEN=your_redis_token
+NEXT_PUBLIC_API_URL=your_production_api or localhost:3000
 ```
 
 ### Run Development Server
