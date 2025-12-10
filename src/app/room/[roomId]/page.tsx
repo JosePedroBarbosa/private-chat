@@ -48,7 +48,7 @@ const Page = () => {
         if (timeRemaining === null || timeRemaining < 0) return;
 
         if (timeRemaining === 0) {
-            router.push("/?destroyed=true");
+            router.push("/create/?destroyed=true");
             return;
         }
 
@@ -94,7 +94,7 @@ const Page = () => {
             }
 
             if (event === "chat.destroy") {
-                router.push("/?destroyed=true");
+                router.push("/create/?destroyed=true");
             }
         },
     })
